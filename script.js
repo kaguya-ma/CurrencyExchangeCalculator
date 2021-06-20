@@ -1,7 +1,7 @@
 
 
 function exchange() {
-  const key = ""
+  const key = "3128a6e0b0msh371447479d4468ep1131d3jsn4f484dd83cb5"
   let currencyFrom = document.querySelector("#choose-from").value
   let currencyTo = document.querySelector("#choose-to").value
   let amount = document.querySelector("#input").value
