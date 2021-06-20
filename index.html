@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>CURRENCY EXCHANGE CALCULATOR</h1>
+    <label>Enter Amount:</label>
+    <input type="text" placeholder="Amount" required id="input">
+    <label for="choose-from">Choose from:</label>
+    <select id="choose-from">
+      <option value="GBP">GBP</option>
+      <option value="USD">USD</option>
+      <option value="JPY">JPY</option>
+      <option value="EUR">EUR</option>
+    </select>
+    <label for="choose-to">Choose to:</label>
+    <select id="choose-to">
+      <option value="USD">USD</option>
+      <option value="GBP">GBP</option>
+      <option value="JPY">JPY</option>
+      <option value="EUR">EUR</option>
+    </select>
+    <button onclick="exchange()">EXCHANGE</button>
+    <h1 id="result"><h1>
+    <script src="script.js"></script>
+  </body>
+</html>
